@@ -1,0 +1,36 @@
+title: Slides-minimal
+email: chorleymj@cf.ac.uk
+description: > #
+        A jekyll + grunt + reveal slides setup
+
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: kramdown
+
+# Site settings
+baseurl: "/slides-minimal"
+
+# Slides as a collection
+collections:
+   slides:
+      output: true
+
+
+# Varibles
+sitename: "Slides Minimal"
+
+url: "https://martinjc.github.io" # the base hostname & protocol for your site
+twitter_username: martinjc
+github_username:  martinjc
+author: "Martin Chorley"
+
+github_repository_url: "martinjc/slides-minimal.git"
+github_repository_name: slides-minimal

@@ -1,0 +1,21 @@
+{
+  "name": "slides-minimal",
+  "description": "Minimal Slides setup",
+  "main": "gruntfile.js",
+  "authors": [
+    "Martin Chorley"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/martinjc/slides-minimal",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.4.1"
+  }
+}

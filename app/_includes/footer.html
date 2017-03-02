@@ -1,0 +1,27 @@
+<script src={{ "/vendor/reveal/lib/js/head.min.js" | prepend: site.baseurl }}></script>
+<script src={{ "/vendor/reveal/js/reveal.js" | prepend: site.baseurl }}></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: "{{ "/vendor/reveal/lib/js/classList.js" | prepend: site.baseurl }}", condition: function() { return !document.body.classList; } },
+            { src: "{{ "/vendor/reveal/plugin/markdown/marked.js" | prepend: site.baseurl }}", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "{{ "/vendor/reveal/plugin/markdown/markdown.js" | prepend: site.baseurl }}", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "{{ "/vendor/reveal/plugin/highlight/highlight.js" | prepend: site.baseurl }}", async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: "{{ "/vendor/reveal/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}", async: true },
+            { src: "{{ "/vendor/reveal/plugin/notes/notes.js" | prepend: site.baseurl }}", async: true }
+        ]
+    });
+
+</script>
+<script src={{ "/js/main.js" | prepend: site.baseurl }}></script>
