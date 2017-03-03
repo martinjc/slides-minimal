@@ -1,6 +1,7 @@
 ---
 title: "Jekyll + Reveal.js"
 layout: slide
+index: 1
 ---
 
 <section>
