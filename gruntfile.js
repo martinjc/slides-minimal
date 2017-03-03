@@ -164,7 +164,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/reveal.css': 'reveal.js/css/reveal.css',
-                    'css/theme.css': 'reveal.js/css/theme/blood.css',
                     'css/print': 'reveal.js/css/print',
                     'js': 'reveal.js/js',
                     'lib': 'reveal.js/lib',
@@ -177,7 +176,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/reveal.css': 'reveal.js/css/reveal.css',
-                    'css/theme.css': 'reveal.js/css/theme/blood.css',
                     'css/print': 'reveal.js/css/print',
                     'js': 'reveal.js/js',
                     'lib': 'reveal.js/lib',
