@@ -314,7 +314,7 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     dir: '<%= app.dist %>/<%= app.baseurl %>',
-                    remote: '<%= app.remote =>',
+                    remote: 'git@github.com:martinjc/slides-minimal.git',
                     branch: 'gh-pages',
                     commit: true,
                     push: true,
