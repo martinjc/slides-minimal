@@ -8,7 +8,11 @@
 
 ## TODO
 
+## app/_includes/footer.html
+
+-  [ ] **TODO** `(line 16)`  something clever with the build process so the secret is removed
+
 
 * * *
 
-Last generated: Sun Mar 05 2017 09:17:10 by [grunt-todo](https://github.com/leny/grunt-todo).
+Last generated: Sun Mar 05 2017 09:20:37 by [grunt-todo](https://github.com/leny/grunt-todo).
